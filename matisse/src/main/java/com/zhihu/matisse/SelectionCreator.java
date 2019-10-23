@@ -368,4 +368,9 @@ public final class SelectionCreator {
         mSelectionSpec.showPreview = showPreview;
         return this;
     }
+
+    public SelectionCreator initAlbumName(String initAlbumName) {
+        mSelectionSpec.initAlbumName = initAlbumName;
+        return this;
+    }
 }
